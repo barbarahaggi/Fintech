@@ -1,19 +1,20 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-body{
-    background-image: url(./assets/LM-Gradient\ background\ -\ Apps\ on\ Galaxy\ Store\ _\ Iphone\ wallpaper\ planets\,\ Iphone\ wallpaper\ violet\,\ Iphone\ wallpaper\ sky.jpg);
+body {
+    background-image: url(./assets/download\ \(2\).jpg);
 }
 
 
-.bloco{
+.bloco {
     background-color: white;
     border-radius: 50px;
-    height: 180vw;
+    height: 80%;
     margin-top: 41px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    
 }
 
-.titulo{
+.titulo {
     color: #cccbfb;
     font-weight: bold;
     font-size: 2.5rem;
@@ -24,33 +25,32 @@ body{
     padding-bottom: 40px;
 }
 
-.span{
+.span {
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     justify-content: center;
 }
 
-.link{
+.link {
     margin-left: 10px;
     text-decoration: none;
     color: #cccbfb;
 }
 
- .sociais{
+.sociais {
     display: flex;
     margin-top: 30px;
     margin-bottom: 30px;
     justify-content: center;
- }
+}
 
- .icones{
+.icones {
     display: flex;
     justify-content: center;
-   
- }
+}
 
- .logo{
+.logo {
     color: #cccbfb;
     font-weight: bold;
     font-size: 2.5rem;
@@ -58,4 +58,102 @@ body{
     justify-content: center;
     padding-top: 40px;
     padding-bottom: 40px;
- }
+}
+
+
+@media (max-width: 576px) {
+    .titulo {
+        font-size: 1.5rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .bloco {
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .span, .sociais {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .titulo {
+        font-size: 2rem;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .logo {
+        font-size: 2rem;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .bloco {
+        height: 70%;
+        margin-top: 30px;
+    }
+
+    .span, .sociais {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .titulo {
+        font-size: 2.2rem;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .logo {
+        font-size: 2.2rem;
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .bloco {
+        height: 75%;
+        margin-top: 35px;
+    }
+
+    .span, .sociais {
+        margin-top: 28px;
+        margin-bottom: 28px;
+    }
+}
+
+
+@media (min-width: 993px) {
+    .titulo {
+        font-size: 2.5rem;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .logo {
+        font-size: 2.5rem;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .bloco {
+        height: 80%;
+        margin-top: 41px;
+    }
+
+    .span, .sociais {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
